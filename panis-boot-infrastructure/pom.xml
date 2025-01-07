@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.izpan</groupId>
+        <artifactId>panis-boot</artifactId>
+        <version>1.0.5-SNAPSHOT</version>
+    </parent>
+
+    <version>1.0.5-SNAPSHOT</version>
+    <name>panis-boot-infrastructure</name>
+    <artifactId>panis-boot-infrastructure</artifactId>
+    <description>PanisBoot 后台管理系统 - Infrastructure 基础配置</description>
+
+    <dependencies>
+        <!-- Common Core -->
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-common</artifactId>
+        </dependency>
+        <!-- SpringBoot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
+        <!-- PanisBoot Starter Begin -->
+        <!-- MySQL -->
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-starter-database-mysql</artifactId>
+        </dependency>
+        <!-- MyBatis Plus -->
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-starter-code-generator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-starter-database-mybatis-plus</artifactId>
+        </dependency>
+        <!-- Redis -->
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-starter-database-redis</artifactId>
+        </dependency>
+        <!-- Sa-Token -->
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-starter-sa-token</artifactId>
+        </dependency>
+        <!-- Job Quartz -->
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-starter-job-quartz</artifactId>
+        </dependency>
+        <!-- OSS -->
+        <dependency>
+            <groupId>com.izpan</groupId>
+            <artifactId>panis-boot-starter-oss</artifactId>
+        </dependency>
+        <!-- PanisBoot Starter End -->
+    </dependencies>
+
+</project>
