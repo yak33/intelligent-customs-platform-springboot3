@@ -1,6 +1,6 @@
 server:
   # 服务端口
-  port: 9999
+  port: 8080
 
 spring:
   profiles:

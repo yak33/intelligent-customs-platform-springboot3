@@ -14,9 +14,9 @@ spring:
           enabled: true
 oss:
   name: minio
-  bucket-name: panis
-  endpoint:
-  access-key:
-  secret-key:
+  bucket-name: intelligent-customs-platform
+  endpoint: http://1.94.253.73:9010/
+  access-key: XyD3l9A2Fz9TVYSKND3j
+  secret-key: s2A3knISlBqZk9tGsUOmAIha3Ndc7JD7ZL3VOlGS
   sync-delete: true
   expiry: 3600
